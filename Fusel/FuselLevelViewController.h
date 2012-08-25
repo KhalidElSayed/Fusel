@@ -12,7 +12,6 @@
 #import "FuselLevel.h"
 #import "FuselLevelView.h"
 #import "FuselResultViewController.h"
-#import "FuselMultiplayerLevel.h"
 
 @protocol FuselLevelViewDataSource;
 @protocol FuselResultViewControllerDelegate;

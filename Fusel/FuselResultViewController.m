@@ -73,26 +73,10 @@
         fuselResultMenuHeaderView.delegate = self;
         fuselResultMenuHeaderView.title = NSLocalizedString(@"ResultTitle", @"");
         
-        //check if it is multiplayer
-        self.isMultiplayer = [fuselLevel isMemberOfClass:[FuselMultiplayerLevel class]];
-            
-        fuselResultMenuHeaderView.isMultiplayer = self.isMultiplayer;
-        
-        if (self.isMultiplayer) {
-            
-            self.opponentScore = [self.fuselMultiplayerLevel scoreForOpponent];
-            
-        }
-        
         self.tableView.tableHeaderView = fuselResultMenuHeaderView;
         
     }
     return self;
-}
-
-- (FuselMultiplayerLevel *)fuselMultiplayerLevel
-{
-    return (FuselMultiplayerLevel *)self.fuselLevel;
 }
 
 - (int)resultViewWillShowScore
@@ -112,17 +96,6 @@
 - (NSString *)resultViewWillShowMultiplayerPlayerName
 {
     return [GKLocalPlayer localPlayer].alias;
-}
-
-- (NSString *)resultViewWillShowMultiplayerOpponentName
-{
-    if (self.fuselMultiplayerLevel.opponentPlayer != nil)
-        
-        return self.fuselMultiplayerLevel.opponentPlayer.alias;
-    
-    else
-        
-        return NSLocalizedString(@"ResultOpponent", @"");
 }
 
 - (int)resultViewWillShowPreviousHighscore

@@ -180,13 +180,4 @@
     [self.delegate fuselLevelViewControllerReplayLevel:self.level];
 }
 
-- (CGPoint)levelViewLastOpponentPosition
-{
-    if ([self.level isMemberOfClass:[FuselMultiplayerLevel class]])
-        
-        return [(FuselMultiplayerLevel *)self.level lastOpponentPosition];
-    
-    return CGPointZero;
-}
-
 @end

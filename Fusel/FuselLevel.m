@@ -136,7 +136,7 @@
 
 - (void)reportScores
 {
-    BOOL isMultiplayer = [self isMemberOfClass:[FuselMultiplayerLevel class]];
+    BOOL isMultiplayer = NO;
     
     //fusels collected
     [[FuselStatistics localStatistics] addToTotalFuselsCollected:[self collectedFuselCount]];

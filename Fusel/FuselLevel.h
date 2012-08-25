@@ -88,5 +88,3 @@ typedef enum {
 - (CGSize)fuselLevelViewportSize;
 
 @end
-
-#import "FuselMultiplayerLevel.h"

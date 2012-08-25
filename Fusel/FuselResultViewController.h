@@ -29,8 +29,6 @@
 - (id)initWithLevel:(FuselLevel *)fuselLevel;
 - (void)countingDidFinish;
 
-- (FuselMultiplayerLevel *)fuselMultiplayerLevel;
-
 - (void)shareResult;
 
 @end

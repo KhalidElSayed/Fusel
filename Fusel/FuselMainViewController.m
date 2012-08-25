@@ -236,23 +236,6 @@
     }];
 }
 
-- (void)matchmakerViewController:(GKMatchmakerViewController *)viewController didFindMatch:(GKMatch *)match
-{   
-    [self dismissViewControllerAnimated:YES completion:^(void) {
-        
-        //create a multiplayer level
-        FuselMultiplayerLevel *multiplayerLevel = [[FuselMultiplayerLevel alloc] initWithLevelMode:self.levelMode andMatch:match];
-        
-        //starts the new game
-        self.fuselLevelViewController = [[FuselLevelViewController alloc] initWithLevel:multiplayerLevel];
-        
-        self.fuselLevelViewController.delegate = self;
-        
-        [self.navigationController presentModalViewController:self.fuselLevelViewController animated:YES];
-        
-    }];
-}
-
 - (void)matchmakerViewControllerWasCancelled:(GKMatchmakerViewController *)viewController
 {
     [self dismissModalViewControllerAnimated:YES];
@@ -275,26 +258,12 @@
 
 - (void)fuselLevelViewControllerReplayLevel:(FuselLevel *)level
 {
-    if ([level isMemberOfClass:[FuselMultiplayerLevel class]]) {
-        
-        //additional information needed
-        // must dismiss view controller
-        [self dismissViewControllerAnimated:YES completion:^(void) {
-            
-            [self startMultiplayerLevel:level.levelMode];
-            
-        }];
-        
-    } else {
-        
-        FuselLevel *fuselLevel = [[FuselLevel alloc] initWithLevelMode:level.levelMode];
-        
-        [self.fuselLevelViewController resetWithLevel:fuselLevel];
-        
-        [self.fuselLevelViewController setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-        [self.fuselLevelViewController dismissModalViewControllerAnimated:YES];
-        
-    }
+    FuselLevel *fuselLevel = [[FuselLevel alloc] initWithLevelMode:level.levelMode];
+    
+    [self.fuselLevelViewController resetWithLevel:fuselLevel];
+    
+    [self.fuselLevelViewController setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+    [self.fuselLevelViewController dismissModalViewControllerAnimated:YES];
 }
 
 @end
