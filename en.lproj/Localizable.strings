@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  Fusel
+
+  Created by Fränz Friederes on 09.07.12.
+  Copyright (c) 2012 the2f. All rights reserved.
+*/
+
+"Fusel"                 = "Fusel";
+
+"GameCenterLoginNeeded" = "Please switch to the Game Center app and log in to use this function";
+
+"LevelModeSandbox"      = "Sandbox";
+"LevelModeMedium"       = "Medium game";
+"LevelModeShort"        = "Short game";
+"LevelModeMultiplayer"  = "Multiplayer";
+
+"StatisticsGameCenter"  = "Game Center";
+"StatisticsTitle"       = "Scores";
+"StatisticsCollectedFusel"   = "Collected";
+"StatisticsMissedFusel"      = "Missed";
+"StatisticsFuselCount"  = "%d fusels";
+"StatisticsPointCount"  = "%d pts.";
+"StatisticsTime"        = "Time played";
+"StatisticsTimeSeconds" = "%d seconds";
+"StatisticsTimeMinutes" = "%.0f minutes";
+"StatisticsTimeHours"   = "%.1f hours";
+"StatisticsTimeNone"    = "None";
+
+"StatisticsLeaderboards"    = "Leaderboards";
+
+"MultiplayerOutOfDate"  = "You or your opponent does not have the latest version of Fusel";
+
+"ResultTitle"           = "Your score";
+"ResultHighscoreTitle"  = "Highscore!";
+
+"ResultPoints"          = "%d points";
+"ResultCollectedFusels" = "%d fusels";
+"ResultMissedFusels"    = "%d missed";
+"ResultPreHighscore"    = "%d highscore";
+"ResultShare"           = "Share";
+
+"ResultDefaultMessage"  = "I just got %d points in the Fusel game while I collected %d fusels! http://fusel.lu/";
+"ResultTweetMessage"    = "I just got %d points in the Fusel game while I collected %d fusels! #fusel http://fusel.lu/";
+
+"ResultOpponent"        = "Opponent";
+
+"ResultReplay"          = "Repeat game";
+
+"AboutTitle"            = "About";
+"AboutTips"             = "Tips";
+"AboutText"             = "Find as many fusels as possible.
+
+In a short or medium game, most fusels are placed around the start position. When you go out further from the start position, the chance of getting fusels decrease.
+
+You get more points by fusels that are placed further away from the start position.";
+
+"AboutDeveloper"        = "Developer";
+"AboutCountry"          = "Country";
+"Luxembourg"            = "Luxembourg";
+"AboutWebsite"          = "Website";
+"AboutFacebook"         = "Facebook";
+
+"Copy"                  = "Copy score";
+"Cancel"                = "Cancel";
+"Back"                  = "Back";

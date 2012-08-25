@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  Fusel
+
+  Created by Fränz Friederes on 09.07.12.
+  Copyright (c) 2012 the2f. All rights reserved.
+*/
+
+"Fusel"                 = "Fusel";
+
+"GameCenterLoginNeeded" = "Wechsle zur Game Center App und logge dich ein um diese Funktion zu nutzen";
+
+"LevelModeSandbox"      = "Sandkasten";
+"LevelModeMedium"       = "Mittlere Partie";
+"LevelModeShort"        = "Kurze Partie";
+"LevelModeMultiplayer"  = "Mehrspieler";
+
+"StatisticsGameCenter"  = "Game Center";
+"StatisticsTitle"       = "Punkte";
+"StatisticsCollectedFusel"   = "Gesammelt";
+"StatisticsMissedFusel"      = "Verpasst";
+"StatisticsFuselCount"  = "%d Fusel";
+"StatisticsPointCount"  = "%d Pkte.";
+"StatisticsTime"        = "Spielzeit";
+"StatisticsTimeSeconds" = "%d Sekunden";
+"StatisticsTimeMinutes" = "%.0f Minuten";
+"StatisticsTimeHours"   = "%.1f Stunden";
+"StatisticsTimeNone"    = "Keine";
+
+"StatisticsLeaderboards"    = "Bestenlisten";
+
+"MultiplayerOutOfDate"  = "Du oder dein Mitspieler hat nicht die aktuelle Version von Fusel";
+
+"ResultTitle"           = "Deine Punkte";
+"ResultHighscoreTitle"  = "Highscore!";
+
+"ResultPoints"          = "%d Punkte";
+"ResultCollectedFusels" = "%d Fussel";
+"ResultMissedFusels"    = "%d Verpasst";
+"ResultPreHighscore"    = "%d Highscore";
+"ResultShare"           = "Teilen";
+
+"ResultDefaultMessage"  = "Ich habe %d Punkte im Spiel Fusel erhalten, nachdem ich %d Fussel gesammelt habe! http://fusel.lu/";
+"ResultTweetMessage"    = "Ich habe %d Punkte im Spiel Fusel erhalten, nachdem ich %d Fussel gesammelt habe! #fusel http://fusel.lu/";
+
+"ResultOpponent"        = "Mitspieler";
+
+"ResultReplay"          = "Partie wiederholen";
+
+"AboutTitle"            = "Über";
+"AboutTips"             = "Tipps";
+"AboutText"             = "Finde so viele Fussel wie möglich.
+
+Bei der kurzen und mittleren Partie befinden sich die meisten Fussel an der Anfangsposition und werden weniger je weiter man sich davon entfernt.
+
+Fussel die sich weiter weg von der Anfangsposition befinden bringen mehr Punkte ein.";
+
+"AboutDeveloper"        = "Entwickler";
+"AboutCountry"          = "Land";
+"Luxembourg"            = "Luxemburg";
+"AboutWebsite"          = "Webseite";
+"AboutFacebook"         = "Facebook";
+
+"Copy"                  = "Punktestand kopieren";
+"Cancel"                = "Abbrechen";
+"Back"                  = "Zurück";
