@@ -48,7 +48,16 @@
             
         }
         
-        self.movableImage = [UIImage imageNamed:@"Movable.png"];
+        if ([[UIScreen mainScreen] bounds].size.height < 568)
+        
+            //default image (iphone 3.5 inch)
+            self.movableImage = [UIImage imageNamed:@"Movable.png"];
+        
+        else
+            
+            //default image (iphone 4 inch)
+            self.movableImage = [UIImage imageNamed:@"Movable-568h@2x.png"];
+        
         self.movableDisplayed = YES;
         
     }

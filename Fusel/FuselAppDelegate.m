@@ -27,8 +27,21 @@
     
     [self.window addSubview:self.navigationController.view];
     
-    //show default
-    self.defaultImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Default.png"]];
+    //get default
+    UIImage *defaultImage;
+    
+    if ([[UIScreen mainScreen] bounds].size.height < 568)
+        
+        //default image (iphone 3.5 inch)
+        defaultImage = [UIImage imageNamed:@"Default.png"];
+    
+    else
+        
+        //default image (iphone 4 inch)
+        defaultImage = [UIImage imageNamed:@"Default-568h@2x.png"];
+    
+    //show default image
+    self.defaultImageView = [[UIImageView alloc] initWithImage:defaultImage];
     
     self.defaultImageView.frame = [[UIScreen mainScreen] bounds];
     

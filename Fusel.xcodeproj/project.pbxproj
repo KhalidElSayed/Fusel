@@ -12,6 +12,9 @@
 		FD0311D415B0282900A39A52 /* FuselStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0311D315B0282900A39A52 /* FuselStatistics.m */; };
 		FD0311D815B2246200A39A52 /* FuselMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0311D715B2246200A39A52 /* FuselMenuTableViewController.m */; };
 		FD0311DB15B225AC00A39A52 /* FuselMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0311DA15B225AC00A39A52 /* FuselMenuHeaderView.m */; };
+		FD07D798160203DC0096555D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D797160203DC0096555D /* Default-568h@2x.png */; };
+		FD07D79B16020E2C0096555D /* Movable-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D79A16020E2C0096555D /* Movable-568h@2x.png */; };
+		FD07D79D160210F10096555D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD07D79C160210F10096555D /* Social.framework */; };
 		FD15C71015B24FDB005D29E7 /* FuselMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD15C70F15B24FDB005D29E7 /* FuselMenuCell.m */; };
 		FD15C71415B25D62005D29E7 /* FuselResultMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD15C71315B25D62005D29E7 /* FuselResultMenuHeaderView.m */; };
 		FD15C71615B2E90D005D29E7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD15C71515B2E90D005D29E7 /* Twitter.framework */; };
@@ -53,6 +56,9 @@
 		FD0311D715B2246200A39A52 /* FuselMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselMenuTableViewController.m; sourceTree = "<group>"; };
 		FD0311D915B225AC00A39A52 /* FuselMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselMenuHeaderView.h; sourceTree = "<group>"; };
 		FD0311DA15B225AC00A39A52 /* FuselMenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselMenuHeaderView.m; sourceTree = "<group>"; };
+		FD07D797160203DC0096555D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD07D79A16020E2C0096555D /* Movable-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Movable-568h@2x.png"; sourceTree = "<group>"; };
+		FD07D79C160210F10096555D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FD15C70E15B24FDB005D29E7 /* FuselMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselMenuCell.h; sourceTree = "<group>"; };
 		FD15C70F15B24FDB005D29E7 /* FuselMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselMenuCell.m; sourceTree = "<group>"; };
 		FD15C71215B25D62005D29E7 /* FuselResultMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselResultMenuHeaderView.h; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD07D79D160210F10096555D /* Social.framework in Frameworks */,
 				FD15C71615B2E90D005D29E7 /* Twitter.framework in Frameworks */,
 				FD9C3CCD15AB37E900B1A75F /* GameKit.framework in Frameworks */,
 				FDCA524F15A8D02100D67E0C /* UIKit.framework in Frameworks */,
@@ -143,12 +150,14 @@
 				FD7ACD2515B5ECB5009E9ABD /* icon144x144.png */,
 				FD7ACD2C15B5FEF8009E9ABD /* Default@2x.png */,
 				FD7ACD2A15B5FEE7009E9ABD /* Default.png */,
+				FD07D797160203DC0096555D /* Default-568h@2x.png */,
 				FD9C3CB515A9F34F00B1A75F /* Wood@2x.png */,
 				FD9C3CB415A9F34F00B1A75F /* Wood.png */,
 				FDCA528C15A98FEB00D67E0C /* Texture@2x.png */,
 				FDCA528D15A98FEB00D67E0C /* Texture.png */,
 				FD2E76F515BC4DEB00D63CC6 /* Movable.png */,
 				FD2E76F615BC4DEB00D63CC6 /* Movable@2x.png */,
+				FD07D79A16020E2C0096555D /* Movable-568h@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -174,6 +183,7 @@
 		FDCA524D15A8D02100D67E0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD07D79C160210F10096555D /* Social.framework */,
 				FD15C71515B2E90D005D29E7 /* Twitter.framework */,
 				FD9C3CCC15AB37E900B1A75F /* GameKit.framework */,
 				FDCA524E15A8D02100D67E0C /* UIKit.framework */,
@@ -312,6 +322,8 @@
 				FD7ACD2D15B5FEF8009E9ABD /* Default@2x.png in Resources */,
 				FD2E76F715BC4DEB00D63CC6 /* Movable.png in Resources */,
 				FD2E76F815BC4DEB00D63CC6 /* Movable@2x.png in Resources */,
+				FD07D798160203DC0096555D /* Default-568h@2x.png in Resources */,
+				FD07D79B16020E2C0096555D /* Movable-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

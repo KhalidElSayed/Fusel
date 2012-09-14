@@ -165,7 +165,7 @@ static FuselStatistics *_localStatistics;
 
 - (void)reportFuselCollectedCounterToWebsite
 {
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:kCounterReportUrl, self.totalFuselsCollectedCounter]];
+    NSURL *url = [NSURL URLWithString:kCounterReportUrl];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     
     NSString *post = [NSString stringWithFormat:@"param=fuselscollected&value=%d", self.totalFuselsCollectedCounter];
