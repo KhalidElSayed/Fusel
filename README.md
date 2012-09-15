@@ -1,4 +1,4 @@
-![Fusel icon](https://raw.github.com/the2f/Fusel/master/Fusel/icon144x144.png)
+![Fusel icon](https://raw.github.com/the2f/Fusel/master/Fusel/Resources/icon144x144.png)
 
 Fusel
 =====
