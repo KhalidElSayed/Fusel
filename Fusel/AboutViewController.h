@@ -15,7 +15,6 @@
 #define kAboutWebsite       @"fusel.lu"
 #define kAboutWebsiteUrl    @"http://www.fusel.lu/"
 #define kAboutFacebook      @"fuselgame"
-#define kAboutFacebookUrl   @"http://facebook.com/fuselgame"
 
 @interface AboutViewController : FuselMenuTableViewController
 

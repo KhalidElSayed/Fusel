@@ -31,7 +31,7 @@
     //draw heading
     CGContextSaveGState(context);
     
-    CGContextRotateCTM(context, - 0.08);
+    CGContextRotateCTM(context, - 0.1);
     
     //colors
     [[UIColor colorWithWhite:0.1 alpha:1.0] setFill];

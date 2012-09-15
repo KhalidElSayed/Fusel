@@ -60,7 +60,7 @@
     
     else if (section == 1)
         
-        return 4;
+        return 3;
     
     else if (section == 2)
         
@@ -146,14 +146,6 @@
             
             cell.textLabel.text = NSLocalizedString(@"AboutWebsite", @"");
             
-        } else if (indexPath.row == 3) {
-            
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-            
-            cell.detailTextLabel.text = kAboutFacebook;
-            
-            cell.textLabel.text = NSLocalizedString(@"AboutFacebook", @"");
-            
         }
         
     } else if (indexPath.section == 2) {
@@ -183,12 +175,6 @@
         } else if (indexPath.row == 2) {
             
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:kAboutWebsiteUrl]];
-            
-            [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
-            
-        } else if (indexPath.row == 3) {
-            
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:kAboutFacebookUrl]];
             
             [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
             

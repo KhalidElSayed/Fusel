@@ -27,7 +27,7 @@
         self.tableView.backgroundView = backgroundView;
         
         //table header view
-        self.tableView.tableHeaderView = [[FuselMenuHeaderView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.tableView.frame.size.width, 130.0)];
+        self.tableView.tableHeaderView = [[FuselMenuHeaderView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.tableView.frame.size.width, 140.0)];
         
         //table footer view
         self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 0.0, 30.0)];

@@ -12,22 +12,24 @@
 		FD0311D415B0282900A39A52 /* FuselStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0311D315B0282900A39A52 /* FuselStatistics.m */; };
 		FD0311D815B2246200A39A52 /* FuselMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0311D715B2246200A39A52 /* FuselMenuTableViewController.m */; };
 		FD0311DB15B225AC00A39A52 /* FuselMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0311DA15B225AC00A39A52 /* FuselMenuHeaderView.m */; };
-		FD07D798160203DC0096555D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D797160203DC0096555D /* Default-568h@2x.png */; };
-		FD07D79B16020E2C0096555D /* Movable-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D79A16020E2C0096555D /* Movable-568h@2x.png */; };
-		FD07D79D160210F10096555D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD07D79C160210F10096555D /* Social.framework */; };
+		FD07D7B51604C5750096555D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7A61604C5750096555D /* Default-568h@2x.png */; };
+		FD07D7B61604C5750096555D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7A71604C5750096555D /* Default.png */; };
+		FD07D7B71604C5750096555D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7A81604C5750096555D /* Default@2x.png */; };
+		FD07D7B81604C5750096555D /* GitHubRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7A91604C5750096555D /* GitHubRibbon.png */; };
+		FD07D7B91604C5750096555D /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7AA1604C5750096555D /* icon57x57.png */; };
+		FD07D7BA1604C5750096555D /* icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7AB1604C5750096555D /* icon72x72.png */; };
+		FD07D7BB1604C5750096555D /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7AC1604C5750096555D /* icon114x114.png */; };
+		FD07D7BC1604C5750096555D /* icon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7AD1604C5750096555D /* icon144x144.png */; };
+		FD07D7BD1604C5750096555D /* Movable-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7AE1604C5750096555D /* Movable-568h@2x.png */; };
+		FD07D7BE1604C5750096555D /* Movable.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7AF1604C5750096555D /* Movable.png */; };
+		FD07D7BF1604C5750096555D /* Movable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7B01604C5750096555D /* Movable@2x.png */; };
+		FD07D7C01604C5750096555D /* Texture.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7B11604C5750096555D /* Texture.png */; };
+		FD07D7C11604C5750096555D /* Texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7B21604C5750096555D /* Texture@2x.png */; };
+		FD07D7C21604C5750096555D /* Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7B31604C5750096555D /* Wood.png */; };
+		FD07D7C31604C5750096555D /* Wood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07D7B41604C5750096555D /* Wood@2x.png */; };
 		FD15C71015B24FDB005D29E7 /* FuselMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD15C70F15B24FDB005D29E7 /* FuselMenuCell.m */; };
 		FD15C71415B25D62005D29E7 /* FuselResultMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD15C71315B25D62005D29E7 /* FuselResultMenuHeaderView.m */; };
 		FD15C71615B2E90D005D29E7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD15C71515B2E90D005D29E7 /* Twitter.framework */; };
-		FD15C71A15B4B555005D29E7 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = FD15C71915B4B555005D29E7 /* icon114x114.png */; };
-		FD15C71C15B4B591005D29E7 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = FD15C71B15B4B591005D29E7 /* icon57x57.png */; };
-		FD2E76F715BC4DEB00D63CC6 /* Movable.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2E76F515BC4DEB00D63CC6 /* Movable.png */; };
-		FD2E76F815BC4DEB00D63CC6 /* Movable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2E76F615BC4DEB00D63CC6 /* Movable@2x.png */; };
-		FD7ACD2615B5ECB5009E9ABD /* icon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7ACD2515B5ECB5009E9ABD /* icon144x144.png */; };
-		FD7ACD2915B5EDED009E9ABD /* icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7ACD2815B5EDED009E9ABD /* icon72x72.png */; };
-		FD7ACD2B15B5FEE7009E9ABD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7ACD2A15B5FEE7009E9ABD /* Default.png */; };
-		FD7ACD2D15B5FEF8009E9ABD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7ACD2C15B5FEF8009E9ABD /* Default@2x.png */; };
-		FD9C3CB615A9F34F00B1A75F /* Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9C3CB415A9F34F00B1A75F /* Wood.png */; };
-		FD9C3CB715A9F34F00B1A75F /* Wood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9C3CB515A9F34F00B1A75F /* Wood@2x.png */; };
 		FD9C3CBA15A9F55A00B1A75F /* FuselMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9C3CB915A9F55A00B1A75F /* FuselMainViewController.m */; };
 		FD9C3CCB15AA0BCA00B1A75F /* FuselResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9C3CCA15AA0BCA00B1A75F /* FuselResultViewController.m */; };
 		FD9C3CCD15AB37E900B1A75F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9C3CCC15AB37E900B1A75F /* GameKit.framework */; };
@@ -41,8 +43,6 @@
 		FDCA527315A8D46100D67E0C /* Fusel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA527215A8D46100D67E0C /* Fusel.m */; };
 		FDCA528015A8EDE600D67E0C /* FuselLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA527F15A8EDE600D67E0C /* FuselLevelView.m */; };
 		FDCA528315A8FD0A00D67E0C /* FuselLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA528215A8FD0A00D67E0C /* FuselLevelViewController.m */; };
-		FDCA528E15A98FEB00D67E0C /* Texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCA528C15A98FEB00D67E0C /* Texture@2x.png */; };
-		FDCA528F15A98FEB00D67E0C /* Texture.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCA528D15A98FEB00D67E0C /* Texture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,24 +56,27 @@
 		FD0311D715B2246200A39A52 /* FuselMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselMenuTableViewController.m; sourceTree = "<group>"; };
 		FD0311D915B225AC00A39A52 /* FuselMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselMenuHeaderView.h; sourceTree = "<group>"; };
 		FD0311DA15B225AC00A39A52 /* FuselMenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselMenuHeaderView.m; sourceTree = "<group>"; };
-		FD07D797160203DC0096555D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		FD07D79A16020E2C0096555D /* Movable-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Movable-568h@2x.png"; sourceTree = "<group>"; };
 		FD07D79C160210F10096555D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FD07D7A61604C5750096555D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD07D7A71604C5750096555D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		FD07D7A81604C5750096555D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		FD07D7A91604C5750096555D /* GitHubRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GitHubRibbon.png; path = Resources/GitHubRibbon.png; sourceTree = "<group>"; };
+		FD07D7AA1604C5750096555D /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon57x57.png; path = Resources/icon57x57.png; sourceTree = "<group>"; };
+		FD07D7AB1604C5750096555D /* icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon72x72.png; path = Resources/icon72x72.png; sourceTree = "<group>"; };
+		FD07D7AC1604C5750096555D /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon114x114.png; path = Resources/icon114x114.png; sourceTree = "<group>"; };
+		FD07D7AD1604C5750096555D /* icon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon144x144.png; path = Resources/icon144x144.png; sourceTree = "<group>"; };
+		FD07D7AE1604C5750096555D /* Movable-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Movable-568h@2x.png"; path = "Resources/Movable-568h@2x.png"; sourceTree = "<group>"; };
+		FD07D7AF1604C5750096555D /* Movable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Movable.png; path = Resources/Movable.png; sourceTree = "<group>"; };
+		FD07D7B01604C5750096555D /* Movable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Movable@2x.png"; path = "Resources/Movable@2x.png"; sourceTree = "<group>"; };
+		FD07D7B11604C5750096555D /* Texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Texture.png; path = Resources/Texture.png; sourceTree = "<group>"; };
+		FD07D7B21604C5750096555D /* Texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Texture@2x.png"; path = "Resources/Texture@2x.png"; sourceTree = "<group>"; };
+		FD07D7B31604C5750096555D /* Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wood.png; path = Resources/Wood.png; sourceTree = "<group>"; };
+		FD07D7B41604C5750096555D /* Wood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wood@2x.png"; path = "Resources/Wood@2x.png"; sourceTree = "<group>"; };
 		FD15C70E15B24FDB005D29E7 /* FuselMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselMenuCell.h; sourceTree = "<group>"; };
 		FD15C70F15B24FDB005D29E7 /* FuselMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselMenuCell.m; sourceTree = "<group>"; };
 		FD15C71215B25D62005D29E7 /* FuselResultMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselResultMenuHeaderView.h; sourceTree = "<group>"; };
 		FD15C71315B25D62005D29E7 /* FuselResultMenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselResultMenuHeaderView.m; sourceTree = "<group>"; };
 		FD15C71515B2E90D005D29E7 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		FD15C71915B4B555005D29E7 /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon114x114.png; path = ../icon114x114.png; sourceTree = "<group>"; };
-		FD15C71B15B4B591005D29E7 /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon57x57.png; path = ../icon57x57.png; sourceTree = "<group>"; };
-		FD2E76F515BC4DEB00D63CC6 /* Movable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Movable.png; sourceTree = "<group>"; };
-		FD2E76F615BC4DEB00D63CC6 /* Movable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Movable@2x.png"; sourceTree = "<group>"; };
-		FD7ACD2515B5ECB5009E9ABD /* icon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144x144.png; sourceTree = "<group>"; };
-		FD7ACD2815B5EDED009E9ABD /* icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72x72.png; sourceTree = "<group>"; };
-		FD7ACD2A15B5FEE7009E9ABD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		FD7ACD2C15B5FEF8009E9ABD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		FD9C3CB415A9F34F00B1A75F /* Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wood.png; sourceTree = "<group>"; };
-		FD9C3CB515A9F34F00B1A75F /* Wood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood@2x.png"; sourceTree = "<group>"; };
 		FD9C3CB815A9F55A00B1A75F /* FuselMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselMainViewController.h; sourceTree = "<group>"; };
 		FD9C3CB915A9F55A00B1A75F /* FuselMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselMainViewController.m; sourceTree = "<group>"; };
 		FD9C3CC915AA0BCA00B1A75F /* FuselResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselResultViewController.h; sourceTree = "<group>"; };
@@ -98,8 +101,6 @@
 		FDCA527F15A8EDE600D67E0C /* FuselLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselLevelView.m; sourceTree = "<group>"; };
 		FDCA528115A8FD0A00D67E0C /* FuselLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuselLevelViewController.h; sourceTree = "<group>"; };
 		FDCA528215A8FD0A00D67E0C /* FuselLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuselLevelViewController.m; sourceTree = "<group>"; };
-		FDCA528C15A98FEB00D67E0C /* Texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Texture@2x.png"; sourceTree = "<group>"; };
-		FDCA528D15A98FEB00D67E0C /* Texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Texture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD07D79D160210F10096555D /* Social.framework in Frameworks */,
 				FD15C71615B2E90D005D29E7 /* Twitter.framework in Frameworks */,
 				FD9C3CCD15AB37E900B1A75F /* GameKit.framework in Frameworks */,
 				FDCA524F15A8D02100D67E0C /* UIKit.framework in Frameworks */,
@@ -144,20 +144,21 @@
 		FD7ACD2E15B5FF07009E9ABD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FD15C71B15B4B591005D29E7 /* icon57x57.png */,
-				FD7ACD2815B5EDED009E9ABD /* icon72x72.png */,
-				FD15C71915B4B555005D29E7 /* icon114x114.png */,
-				FD7ACD2515B5ECB5009E9ABD /* icon144x144.png */,
-				FD7ACD2C15B5FEF8009E9ABD /* Default@2x.png */,
-				FD7ACD2A15B5FEE7009E9ABD /* Default.png */,
-				FD07D797160203DC0096555D /* Default-568h@2x.png */,
-				FD9C3CB515A9F34F00B1A75F /* Wood@2x.png */,
-				FD9C3CB415A9F34F00B1A75F /* Wood.png */,
-				FDCA528C15A98FEB00D67E0C /* Texture@2x.png */,
-				FDCA528D15A98FEB00D67E0C /* Texture.png */,
-				FD2E76F515BC4DEB00D63CC6 /* Movable.png */,
-				FD2E76F615BC4DEB00D63CC6 /* Movable@2x.png */,
-				FD07D79A16020E2C0096555D /* Movable-568h@2x.png */,
+				FD07D7A61604C5750096555D /* Default-568h@2x.png */,
+				FD07D7A71604C5750096555D /* Default.png */,
+				FD07D7A81604C5750096555D /* Default@2x.png */,
+				FD07D7A91604C5750096555D /* GitHubRibbon.png */,
+				FD07D7AA1604C5750096555D /* icon57x57.png */,
+				FD07D7AB1604C5750096555D /* icon72x72.png */,
+				FD07D7AC1604C5750096555D /* icon114x114.png */,
+				FD07D7AD1604C5750096555D /* icon144x144.png */,
+				FD07D7AE1604C5750096555D /* Movable-568h@2x.png */,
+				FD07D7AF1604C5750096555D /* Movable.png */,
+				FD07D7B01604C5750096555D /* Movable@2x.png */,
+				FD07D7B11604C5750096555D /* Texture.png */,
+				FD07D7B21604C5750096555D /* Texture@2x.png */,
+				FD07D7B31604C5750096555D /* Wood.png */,
+				FD07D7B41604C5750096555D /* Wood@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -309,21 +310,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCA528E15A98FEB00D67E0C /* Texture@2x.png in Resources */,
-				FDCA528F15A98FEB00D67E0C /* Texture.png in Resources */,
-				FD9C3CB615A9F34F00B1A75F /* Wood.png in Resources */,
-				FD9C3CB715A9F34F00B1A75F /* Wood@2x.png in Resources */,
 				FD9C3CD215AB42F400B1A75F /* Localizable.strings in Resources */,
-				FD15C71A15B4B555005D29E7 /* icon114x114.png in Resources */,
-				FD15C71C15B4B591005D29E7 /* icon57x57.png in Resources */,
-				FD7ACD2615B5ECB5009E9ABD /* icon144x144.png in Resources */,
-				FD7ACD2915B5EDED009E9ABD /* icon72x72.png in Resources */,
-				FD7ACD2B15B5FEE7009E9ABD /* Default.png in Resources */,
-				FD7ACD2D15B5FEF8009E9ABD /* Default@2x.png in Resources */,
-				FD2E76F715BC4DEB00D63CC6 /* Movable.png in Resources */,
-				FD2E76F815BC4DEB00D63CC6 /* Movable@2x.png in Resources */,
-				FD07D798160203DC0096555D /* Default-568h@2x.png in Resources */,
-				FD07D79B16020E2C0096555D /* Movable-568h@2x.png in Resources */,
+				FD07D7B51604C5750096555D /* Default-568h@2x.png in Resources */,
+				FD07D7B61604C5750096555D /* Default.png in Resources */,
+				FD07D7B71604C5750096555D /* Default@2x.png in Resources */,
+				FD07D7B81604C5750096555D /* GitHubRibbon.png in Resources */,
+				FD07D7B91604C5750096555D /* icon57x57.png in Resources */,
+				FD07D7BA1604C5750096555D /* icon72x72.png in Resources */,
+				FD07D7BB1604C5750096555D /* icon114x114.png in Resources */,
+				FD07D7BC1604C5750096555D /* icon144x144.png in Resources */,
+				FD07D7BD1604C5750096555D /* Movable-568h@2x.png in Resources */,
+				FD07D7BE1604C5750096555D /* Movable.png in Resources */,
+				FD07D7BF1604C5750096555D /* Movable@2x.png in Resources */,
+				FD07D7C01604C5750096555D /* Texture.png in Resources */,
+				FD07D7C11604C5750096555D /* Texture@2x.png in Resources */,
+				FD07D7C21604C5750096555D /* Wood.png in Resources */,
+				FD07D7C31604C5750096555D /* Wood@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

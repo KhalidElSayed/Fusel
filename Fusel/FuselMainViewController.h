@@ -14,6 +14,8 @@
 #import "FuselLevelViewController.h"
 #import "StatisticsViewController.h"
 
+#define kGitHubProjectUrl @"https://github.com/the2f/Fusel"
+
 @protocol FuselLevelViewControllerDelegate;
 
 @interface FuselMainViewController : FuselMenuTableViewController <FuselLevelViewControllerDelegate, GKMatchmakerViewControllerDelegate>
