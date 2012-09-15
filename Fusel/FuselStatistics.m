@@ -202,8 +202,6 @@ static FuselStatistics *_localStatistics;
 {
     NSString *response = [[NSString alloc] initWithData:self.receivedData encoding:NSUTF8StringEncoding];
     
-    NSLog(@"Response: %@", response);
-    
     if ([response isEqualToString:@"ok"])
         
         self.totalFuselsCollectedCounter = 0;
@@ -230,7 +228,7 @@ static FuselStatistics *_localStatistics;
     [[NSUserDefaults standardUserDefaults] setInteger:totalFuselsCollectedCounter forKey:kUserDefaultsFuselCollectedCounter];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
-    if (totalFuselsCollectedCounter > 100)
+    if (totalFuselsCollectedCounter > 0)
         
         [self reportFuselCollectedCounterToWebsite];
 }
