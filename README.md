@@ -12,7 +12,9 @@ Fusel is a little, free game on the AppStore.
 >
 > **AppStore description**
 
-Find the game on the AppStore and try it out:
-[http://itunes.apple.com/app/fusel/id543294093?mt=8](http://itunes.apple.com/app/fusel/id543294093?mt=8)
+Download the game from the AppStore for free and try it out:
+[Fusel](http://itunes.apple.com/app/fusel/id543294093?mt=8)
 
-I hope this code helps you to get deeper into iOS coding.
+Find more details about the license of this project here: [LICENSE.md](https://github.com/the2f/Fusel/blob/master/LICENSE.md)
+
+I hope this code helps you to get deeper into iOS coding. You have ideas how to improve this app? Just fork it, make your changes and send me a Pull Request.
