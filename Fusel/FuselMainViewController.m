@@ -24,18 +24,6 @@
         
         self.title = NSLocalizedString(@"Fusel", @"");
         
-        //add github ribbon
-        UIButton *githubRibbon = [[UIButton alloc] initWithFrame:CGRectMake(self.tableView.tableHeaderView.frame.size.width - 125.0, 0.0, 125.0, 125.0)];
-        
-        [githubRibbon setImage:[UIImage imageNamed:@"GitHubRibbon.png"] forState:UIControlStateNormal];
-        
-        githubRibbon.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
-        
-        //add target, when someone tabs on the ribbon
-        [githubRibbon addTarget:self action:@selector(forkMeOnGithubAction:) forControlEvents:UIControlEventTouchUpInside];
-        
-        [self.tableView.tableHeaderView addSubview:githubRibbon];
-        
     }
     return self;
 }
