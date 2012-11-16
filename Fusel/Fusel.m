@@ -19,11 +19,13 @@
 @property (strong, nonatomic) NSString *collectorPlayerId;
 @property (nonatomic) int collectTime;
 
+@property (nonatomic) double labelAngle;
+
 @end
 
 @implementation Fusel
 
-@synthesize delegate = _delegate, position = _position, size = _size, fuselType = _fuselType, path = _path, color = _color, isCollected = _isCollected, collectorPlayerId = _collectorPlayerId, collectTime = _collectTime, hasBeenDisplayed = _hasBeenDisplayed, index = _index;
+@synthesize delegate = _delegate, position = _position, size = _size, fuselType = _fuselType, path = _path, color = _color, isCollected = _isCollected, collectorPlayerId = _collectorPlayerId, collectTime = _collectTime, hasBeenDisplayed = _hasBeenDisplayed, index = _index, labelAngle = _labelAngle;
 
 
 - (id)initWithPosition:(CGPoint)position andIndex:(int)index
@@ -40,6 +42,9 @@
         //not found at beginning
         self.isCollected = NO;
         self.hasBeenDisplayed = NO;
+        
+        //set the label angle randomly
+        self.labelAngle = ((float)random() / RAND_MAX) * M_PI * 0.6 - M_PI / 4;
         
         [self generate];
         
@@ -130,6 +135,8 @@
 
 - (void)drawAtPoint:(CGPoint)sourcePoint
 {
+    UIColor *redColor = [UIColor colorWithHue:(14 / 360.0) saturation:0.91 brightness:0.61 alpha:0.7];
+    
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     //stroke aktual fusel
@@ -148,17 +155,7 @@
         
         CGContextSaveGState(context);
         
-        //red
-        int colorHue = 14;
-        
-        //is multiplayer
-        if (self.collectorPlayerId)
-            
-            if (![self.collectorPlayerId isEqualToString:[GKLocalPlayer localPlayer].playerID])
-                
-                colorHue = 203;
-
-        [[UIColor colorWithHue:(colorHue / 360.0) saturation:0.91 brightness:0.61 alpha:0.7] setStroke];
+        [redColor setStroke];
             
         CGContextSetLineWidth(context, 6.0);
         CGContextStrokeEllipseInRect(context, CGRectMake(sourcePoint.x, sourcePoint.y, self.size.width, self.size.height));
@@ -174,6 +171,25 @@
         && sourcePoint.y < [self.delegate fuselViewportSize].height - kHasBeenDisplayedTolerance)
         
         self.hasBeenDisplayed = YES;
+    
+    //draw the label
+    if (self.isCollected)
+    {
+        CGContextSaveGState(context);
+        
+        //drag it to the actual fusel position
+        CGContextTranslateCTM(context, sourcePoint.x + self.size.width / 2, sourcePoint.y + self.size.height / 2);
+        
+        //rotate score
+        CGContextRotateCTM(context, self.labelAngle);
+        
+        [redColor setFill];
+        
+        [[NSString stringWithFormat:@"+%i", self.score] drawAtPoint:CGPointMake(- 15.0, - 11.0) withFont:[UIFont boldSystemFontOfSize: 15.0]];
+        
+        CGContextRestoreGState(context);
+    }
+    
 }
 
 - (int)score
